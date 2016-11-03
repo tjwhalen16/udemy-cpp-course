@@ -1,0 +1,5 @@
+﻿  2dVector.cpp
+c:\users\tyler\documents\visual studio 2015\projects\udemycppadvancedcourse\standardtemplatelibrary\2dvector\2dvector.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\tyler\documents\visual studio 2015\projects\udemycppadvancedcourse\standardtemplatelibrary\2dvector\2dvector.cpp(29): warning C4018: '<': signed/unsigned mismatch
+  2dVector.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\StandardTemplateLibrary\Debug\2dVector.exe
+  2dVector.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\StandardTemplateLibrary\Debug\2dVector.pdb (Full PDB)
