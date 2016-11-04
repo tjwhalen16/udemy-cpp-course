@@ -1,4 +1,0 @@
-﻿  Vectors.cpp
-c:\users\tyler\documents\visual studio 2015\projects\udemycppadvancedcourse\standardtemplatelibrary\vectors\vectors.cpp(20): warning C4018: '<': signed/unsigned mismatch
-  Vectors.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\StandardTemplateLibrary\Debug\Vectors.exe
-  Vectors.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\StandardTemplateLibrary\Debug\Vectors.pdb (Full PDB)

@@ -1,4 +1,0 @@
-﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (StructPadding.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  BinaryFiles.cpp
-  StructPadding.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\FileIO\Debug\BinaryFiles.exe
-  StructPadding.vcxproj -> C:\Users\Tyler\Documents\Visual Studio 2015\Projects\UdemyCppAdvancedCourse\FileIO\Debug\BinaryFiles.pdb (Full PDB)
