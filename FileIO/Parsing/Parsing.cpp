@@ -22,9 +22,13 @@ int main()
 		int population;
 		in >> population;
 
-		in >> std::ws; // Skip over to the next line through any whitespace
+		in.ignore(); // more clear that i'm purposefully skipping the rest than, in >> std::ws; // Skip over to the next line through any whitespace
 
 		std::cout << line << " -- Population is " << population << std::endl;
+
+		if (in.bad()) {
+			std::cout << "Something went wrong\n";
+		}
 	}
 
 	in.close(); // Always

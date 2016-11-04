@@ -30,7 +30,8 @@ int main()
 	// Can't iterate through stack/queue
 	std::stack<Test> testStack;
 
-	// Push destroys object
+	// Push make a copy, and then that copy is destroyed after .push() ends
+	// Local variable is still valid
 	testStack.push(Test("Queen"));
 	testStack.push(Test("King"));
 	testStack.push(Test("Ace"));
@@ -49,7 +50,8 @@ int main()
 	// Can't iterate through stack/queue
 	std::queue<Test> testQueue;
 
-	// Push destroys object
+	// Push make a copy, and then that copy is destroyed after .push() ends
+	// Local variable is still valid
 	testQueue.push(Test("Queen"));
 	testQueue.push(Test("King"));
 	testQueue.push(Test("Ace"));

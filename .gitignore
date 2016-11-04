@@ -4,13 +4,13 @@
 .vs/
 *.vcxproj.filters
 *.vcxproj
-*/Debug/
-*/ipch/
+**/Debug/
+**/ipch/
 *.sln
 
 # Misc
 *~
-*/stdafx.cpp
-*/stdafx.h
-*/targetver.h
+stdafx.cpp
+stdafx.h
+targetver.h
 ReadMe.txt
