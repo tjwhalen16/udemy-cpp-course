@@ -2,6 +2,12 @@
 *.VC.db
 *.VC.VC.openDB
 .vs/
+*.vcxproj.filters
+*.vcxproj
 
 # Misc
 *~
+*/stdafx.cpp
+*/stdafx.h
+*/targetver.h
+
