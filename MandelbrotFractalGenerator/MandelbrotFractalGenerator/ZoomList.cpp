@@ -5,7 +5,7 @@
 ZoomList::ZoomList(int width, int height) : width_(width), height_(height) {
 }
 
-void ZoomList::add(const Zoom& zoom) {
+void ZoomList::Add(const Zoom& zoom) {
 	zooms_.push_back(zoom);
 
 	x_center_ += (zoom.x - width_ / 2) * scale_; // ... += center of screen for this zoom

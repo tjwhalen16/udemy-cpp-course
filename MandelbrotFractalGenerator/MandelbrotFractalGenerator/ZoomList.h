@@ -8,7 +8,7 @@ class ZoomList
 {
 public:
 	ZoomList(int width, int height);
-	void add(const Zoom& zoom);
+	void Add(const Zoom& zoom);
 	std::pair<double, double> ZoomIn(int x, int y);
 
 private:
