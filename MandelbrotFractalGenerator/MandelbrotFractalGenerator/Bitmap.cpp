@@ -5,11 +5,11 @@
 #include "BitmapFileHeader.h"
 #include "BitmapInfoHeader.h"
 
-Bitmap::Bitmap(int width, int height) : width_(width), height_(height), pixels_(new std::uint8_t[width_ * height_ * 3]{ 0 }) { // *3 because each pixel has 3 color values (r, g, and b)
+Bitmap::Bitmap(int width, int height) : width_(width), height_(height), pixels_(new uint8_t[width_ * height_ * 3]{ 0 }) { // *3 because each pixel has 3 color values (r, g, and b)
 }
 
-void Bitmap::SetPixelColor(int x, int y, std::uint8_t r, std::uint8_t g, std::uint8_t b) {
-	std::uint8_t *pixel = pixels_.get();
+void Bitmap::SetPixelColor(int x, int y, uint8_t r, uint8_t g, uint8_t b) {
+	uint8_t *pixel = pixels_.get();
 
 	// y*width moves down approprite number of rows
 	// adding x moves within that row to the correct column
