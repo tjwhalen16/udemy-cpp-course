@@ -2,7 +2,7 @@
 class Mandelbrot
 {
 public:
-	static const int MAX_ITERATIONS = 4000;
+	static const int MAX_ITERATIONS = 10000;
 public:
 	static int GetIterations(double x, double y);
 };
