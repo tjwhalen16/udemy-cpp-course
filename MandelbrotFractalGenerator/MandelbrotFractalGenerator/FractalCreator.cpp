@@ -134,7 +134,7 @@ void FractalCreator::DrawFractal() {
 }
 
 bool FractalCreator::WriteBitmap(std::string filename) {
-	if (bitmap_.Write("test.bmp")) {
+	if (bitmap_.Write(filename)) {
 		return true;
 	} else {
 		return false;

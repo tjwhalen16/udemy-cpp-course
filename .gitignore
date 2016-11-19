@@ -7,6 +7,10 @@
 **/Debug/
 **/ipch/
 *.sln
+**/*.user
+**/packages/
+**/desktop.ini
+**/packages.config
 
 # Misc
 *~
